@@ -54,10 +54,12 @@
   <ItemGroup>
     <Compile Include="ColorsConverters\ColorToBrushColorConverter.cs" />
     <Compile Include="DataConverters\BooleanToVisibilityConverter.cs" />
+    <Compile Include="DataConverters\StringIsNullOrEmptyConverter.cs" />
     <Compile Include="DataConverters\EmptyOrNullStringToVisibilityConverter.cs" />
     <Compile Include="DataConverters\NotBooleanToVisibilityConverter.cs" />
     <Compile Include="DataConverters\NotEmptyStringToVisibilityConverter.cs" />
     <Compile Include="DataConverters\NotObjectNullToVisibilityConverter.cs" />
+    <Compile Include="DataConverters\IsNullToBoolConverter.cs" />
     <Compile Include="DataConverters\ObjectNullToVisibilityConverter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
